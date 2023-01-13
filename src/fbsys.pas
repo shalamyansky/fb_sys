@@ -1,9 +1,9 @@
 (*
     Unit       : fbsys
-    Date       : 2022-09-09
+    Date       : 2023-01-03
     Compiler   : Delphi XE3
     ©Copyright : Shalamyansky Mikhail Arkadievich
-    Contents   : Firebird UDR system functions
+    Contents   : Firebird UDR OS wrapper functions
     Project    : https://github.com/shalamyansky/fb_sys
     Company    : BWR
 *)
@@ -33,8 +33,8 @@ interface
 uses
     SysUtils
   , Windows
-  , firebird
-  , fbudr
+  , firebird  // https://github.com/shalamyansky/fb_common
+  , fbudr     // https://github.com/shalamyansky/fb_common
 ;
 
 
@@ -71,7 +71,7 @@ end;{ TReadFileFunction }
 implementation
 
 uses
-    fbutils
+    fbutils   // https://github.com/shalamyansky/fb_common
 ;
 
 { TSleepFactory }

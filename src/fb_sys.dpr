@@ -1,9 +1,9 @@
 (*
     Unit       : fb_sys
-    Date       : 2022-09-09
+    Date       : 2022-01-03
     Compiler   : Delphi XE3
     ©Copyright : Shalamyansky Mikhail Arkadievich
-    Contents   : Firebird UDR system functions plugin module
+    Contents   : Firebird UDR OS wrapper functions plugin module
     Project    : https://github.com/shalamyansky/fb_sys
     Company    : BWR
 *)
