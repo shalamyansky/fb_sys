@@ -20,5 +20,5 @@ Reads the entire contents of file into blob. **Path** is filesystem path and/or 
 
 where archive.zip can be either a zip achive or a filesystem folder. Symbols "\\" and "/" are equavalient.
 
-The **string** type is any firebird char(), varchar() or blob sub_type text string type of any length an character set UTF8 or WIN1251.   
+The **string** type is any firebird **char**, **varchar** or **blob sub_type text** type of any length an character set UTF8 or WIN1251.   
     
