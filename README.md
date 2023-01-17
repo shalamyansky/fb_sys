@@ -30,7 +30,7 @@ The **string** type is any firebird **char**, **varchar** or **blob sub_type tex
 
 0. Download a release package.
 
-1. Copy fb_xml.dll to %firebird%\plugins\udr
+1. Copy fb_sys.dll to %firebird%\plugins\udr
    where %firebird% is Firebird 4.0(3.0) server root directory.
    Make sure library module matches the Firebird bitness.
 
