@@ -3,7 +3,7 @@ Firebird UDR module to call miscellaneous OS routines.
 
 ## Routines
 
-Now module provides only 2 routines. The set will be replenished as necessary.
+Now the module provides only 2 routines. The set will be replenished as necessary.
 
 ## procedure *sleep*
 
