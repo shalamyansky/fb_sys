@@ -1,7 +1,7 @@
 (*
     Unit       : fbsys
     Date       : 2023-01-03
-    Compiler   : Delphi XE3
+    Compiler   : Delphi XE3, Delphi 12
     ©Copyright : Shalamyansky Mikhail Arkadievich
     Contents   : Firebird UDR OS wrapper functions
     Project    : https://github.com/shalamyansky/fb_sys

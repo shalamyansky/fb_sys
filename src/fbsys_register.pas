@@ -1,7 +1,7 @@
 (*
     Unit       : fbsys_register
     Date       : 2023-01-03
-    Compiler   : Delphi XE3
+    Compiler   : Delphi XE3, Delphi 12
     ©Copyright : Shalamyansky Mikhail Arkadievich
     Contents   : Register UDR function for fb_sys module
     Project    : https://github.com/shalamyansky/fb_sys
