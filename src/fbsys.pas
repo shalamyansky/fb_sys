@@ -32,7 +32,6 @@ interface
 
 uses
     SysUtils
-  , Windows
   , firebird  // https://github.com/shalamyansky/fb_common
   , fbudr     // https://github.com/shalamyansky/fb_common
 ;
@@ -96,7 +95,7 @@ begin
         Milliseconds := 0;
     end;
 
-    Windows.Sleep( Milliseconds );
+    SysUtils.Sleep( Milliseconds );
 
     Result := nil;
 end;{ TSleepProcedure.open }

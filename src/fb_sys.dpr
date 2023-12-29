@@ -9,8 +9,13 @@
 *)
 library fb_sys;
 
+{$DEFINE NO_FBCLIENT}
+//Define NO_FBCLIENT in your .dproj file to take effect on firebird.pas
+
+//Define LINUX in your .dproj file for Linux platform building
+
 uses
-    fbsys_register in 'fbsys_register.pas'
+    fbsys_register
 ;
 {$R *.res}
 
