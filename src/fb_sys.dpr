@@ -15,6 +15,11 @@ library fb_sys;
 //Define LINUX in your .dproj file for Linux platform building
 
 uses
+  {$IFDEF FastMM}
+    {$DEFINE ClearLogFileOnStartup}
+    {$DEFINE EnableMemoryLeakReporting}
+    FastMM5,
+  {$ENDIF}
     fbsys_register
 ;
 {$R *.res}
