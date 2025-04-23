@@ -43,4 +43,4 @@ The **string** type is any firebird **char**, **varchar** or **blob sub_type tex
 
 You can use binaries as you see fit.
 
-If you get code or part of code please keep my name and a link [here](https://github.com/shalamyansky/fb_xml).   
+If you get code or part of code please keep my name and a link [here](https://github.com/shalamyansky/fb_sys).   
